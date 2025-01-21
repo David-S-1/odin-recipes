@@ -1,5 +1,9 @@
 /* Main Styles */
 
+* {
+    box-sizing: content-box
+}
+
 body {
     background-color: rgb(90, 90, 90);
 }
@@ -79,13 +83,6 @@ p {
     margin: 5px 0;
 }
 
-.k-ingredients {
-    text-decoration: underline;
-    text-decoration-color: yellow;
-    text-decoration-thickness: 1px;
-    text-decoration-skip: 6px;
-}
-
 .kimchi-steps li {
     color: rgb(212, 212, 212);
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
@@ -115,12 +112,6 @@ p {
     color: green;
 }
 
-.ingredient-heading {
-    text-decoration: underline;
-    text-decoration-color: yellow;
-    text-decoration-thickness: 1px;
-}
-
 .g-list li {
     color: rgb(212, 212, 212);
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
@@ -137,12 +128,6 @@ p {
 }
 
 /* Chicken Curry Recipe */
-
-.c-ingredients {
-    text-decoration: underline;
-    text-decoration-color: yellow;
-    text-decoration-thickness: 1px;
-}
 
 .c-list li {
     color: rgb(212, 212, 212);
